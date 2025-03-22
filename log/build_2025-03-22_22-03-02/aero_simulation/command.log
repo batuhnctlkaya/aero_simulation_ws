@@ -1,0 +1,2 @@
+Invoking command in '/home/vboxuser/aero_simulation_ws/build/aero_simulation': /usr/bin/cmake /home/vboxuser/aero_simulation_ws/src/aero_simulation -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/vboxuser/aero_simulation_ws/install/aero_simulation
+Invoked command in '/home/vboxuser/aero_simulation_ws/build/aero_simulation' returned '1': /usr/bin/cmake /home/vboxuser/aero_simulation_ws/src/aero_simulation -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/vboxuser/aero_simulation_ws/install/aero_simulation

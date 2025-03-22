@@ -1,0 +1,4 @@
+joystick_control_node:
+  ros__parameters:
+    axis_linear: 1  # İleri/geri hareket için joystick ekseni
+    axis_angular: 0  # Sağa/sola dönüş için joystick ekseni

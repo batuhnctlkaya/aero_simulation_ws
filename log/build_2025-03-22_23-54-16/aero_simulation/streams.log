@@ -1,0 +1,4 @@
+[0.010s] Invoking command in '/home/vboxuser/aero_simulation_ws/build/aero_simulation': /usr/bin/cmake /home/vboxuser/aero_simulation_ws/src/aero_simulation -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/vboxuser/aero_simulation_ws/install/aero_simulation
+[0.016s] [0mCMake Error: The source directory "/home/vboxuser/aero_simulation_ws/src/aero_simulation" does not appear to contain CMakeLists.txt.
+[0.016s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.018s] Invoked command in '/home/vboxuser/aero_simulation_ws/build/aero_simulation' returned '1': /usr/bin/cmake /home/vboxuser/aero_simulation_ws/src/aero_simulation -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/vboxuser/aero_simulation_ws/install/aero_simulation

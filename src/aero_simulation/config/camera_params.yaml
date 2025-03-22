@@ -1,0 +1,7 @@
+camera_node:
+  ros__parameters:
+    video_device: "/dev/video0"  # Kamera cihazı
+    image_width: 640  # Görüntü genişliği
+    image_height: 480  # Görüntü yüksekliği
+    frame_rate: 30  # Görüntü kare hızı (FPS)
+    

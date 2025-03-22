@@ -1,0 +1,5 @@
+rover_control_node:
+  ros__parameters:
+    kp: 1.0  # PID kontrol katsayısı (Oransal)
+    ki: 0.1  # PID kontrol katsayısı (İntegral)
+    kd: 0.05  # PID kontrol katsayısı (Türev)
