@@ -7,26 +7,25 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
-find_package(xacro REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(urdf REQUIRED)
 find_package(std_msgs REQUIRED)
 
 # Add C++ nodes
-add_executable(joystick_control_node src/joystick_control_node.cpp)
-ament_target_dependencies(joystick_control_node rclcpp std_msgs)
+add_executable(joystick_control_node src/joystick_control_node.py)
+ament_target_dependencies(joystick_control_node rclpy std_msgs)
 
-add_executable(rover_control_node src/rover_control_node.cpp)
-ament_target_dependencies(rover_control_node rclcpp std_msgs)
+add_executable(rover_control_node src/rover_control_node.py)
+ament_target_dependencies(rover_control_node rclpy std_msgs)
 
-add_executable(camera_node src/camera_node.cpp)
-ament_target_dependencies(camera_node rclcpp std_msgs)
+add_executable(camera_node src/camera_node.py)
+ament_target_dependencies(camera_node rclpy std_msgs)
 
-add_executable(robot_state_publisher_node src/robot_state_publisher_node.cpp)
-ament_target_dependencies(robot_state_publisher_node rclcpp urdf)
+add_executable(robot_state_publisher_node src/robot_state_publisher_node.py)
+ament_target_dependencies(robot_state_publisher_node rclpy urdf)
 
-add_executable(joint_state_publisher_node src/joint_state_publisher_node.cpp)
-ament_target_dependencies(joint_state_publisher_node rclcpp std_msgs)
+add_executable(joint_state_publisher_node src/joint_state_publisher_node.py)
+ament_target_dependencies(joint_state_publisher_node rclpy std_msgs)
 
 # Install Python nodes
 install(
