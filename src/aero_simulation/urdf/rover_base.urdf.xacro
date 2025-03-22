@@ -33,7 +33,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://aero_description/meshes/base_link.STL" />
+          filename="package://aero_simulation/meshes/base_link.STL" />
       </geometry>
       <material
         name="">
@@ -47,7 +47,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://aero_description/meshes/base_link.STL" />
+          filename="package://aero_simulation/meshes/base_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -82,7 +82,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://aero_description/meshes/link_rf.STL" />
+          filename="package://aero_simulation/meshes/link_rf.STL" />
       </geometry>
       <material
         name="">
@@ -96,7 +96,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://aero_description/meshes/link_rf.STL" />
+          filename="package://aero_simulation/meshes/link_rf.STL" />
       </geometry>
     </collision>
   </link>
@@ -135,7 +135,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://aero_description/meshes/link_rb.STL" />
+          filename="package://aero_simulation/meshes/link_rb.STL" />
       </geometry>
       <material
         name="">
@@ -149,7 +149,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://aero_description/meshes/link_rb.STL" />
+          filename="package://aero_simulation/meshes/link_rb.STL" />
       </geometry>
     </collision>
   </link>
@@ -188,7 +188,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://aero_description/meshes/link_lf.STL" />
+          filename="package://aero_simulation/meshes/link_lf.STL" />
       </geometry>
       <material
         name="">
@@ -202,7 +202,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://aero_description/meshes/link_lf.STL" />
+          filename="package://aero_simulation/meshes/link_lf.STL" />
       </geometry>
     </collision>
   </link>
@@ -241,7 +241,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://aero_description/meshes/link_lb.STL" />
+          filename="package://aero_simulation/meshes/link_lb.STL" />
       </geometry>
       <material
         name="">
@@ -255,7 +255,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://aero_description/meshes/link_lb.STL" />
+          filename="package://aero_simulation/meshes/link_lb.STL" />
       </geometry>
     </collision>
   </link>
