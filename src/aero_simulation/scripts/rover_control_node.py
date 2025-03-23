@@ -54,7 +54,7 @@ class RoverControlNode(Node):
         self.timer = self.create_timer(0.1, self.update_motor_speed)
 
     def cmd_vel_callback(self, msg):
-        """Joystick'ten gelen hızı günceller"""
+        #"""Joystick'ten gelen hızı günceller"""
         linear_speed = msg.linear.x  # İleri/geri hız
         angular_speed = msg.angular.z  # Dönüş hızı
 
@@ -63,7 +63,7 @@ class RoverControlNode(Node):
         self.target_speed_right = linear_speed + angular_speed
 
     def read_encoder(self):
-        """Arduino'dan encoder verisini alır"""
+        #"""Arduino'dan encoder verisini alır"""
         try:
             self.serial_port.write(b'R\n')
             line = self.serial_port.readline().decode().strip()

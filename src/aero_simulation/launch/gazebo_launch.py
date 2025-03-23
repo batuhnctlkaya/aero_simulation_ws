@@ -17,7 +17,7 @@ def generate_launch_description():
     urdf_path = os.path.join(
         get_package_share_directory('aero_simulation'),
         'urdf',
-        'rover.urdf'
+        'rover_base.urdf.xacro'
     )
 
     return LaunchDescription([
@@ -28,6 +28,12 @@ def generate_launch_description():
             name='joystick_control_node',
             output='screen',
             parameters=[joystick_params]
+        ),
+        Node(
+            package='gazebo_ros',
+            executable='spawn_entity.py',
+            arguments=['-file', urdf_path, '-entity', 'rover'],
+            output='screen'
         ),
 
         # Rover Kontrol Node'u
@@ -51,7 +57,7 @@ def generate_launch_description():
         # Robot State Publisher Node'u
         Node(
             package='aero_simulation',
-            executable='robot_state_publisher_node',
+            executable='robot_state_publisher',
             name='robot_state_publisher_node',
             output='screen',
             parameters=[{'robot_description': open(urdf_path).read()}]
@@ -60,7 +66,7 @@ def generate_launch_description():
         # Joint State Publisher Node'u
         Node(
             package='aero_simulation',
-            executable='joint_state_publisher_node',
+            executable='joint_state_publisher',
             name='joint_state_publisher_node',
             output='screen',
             parameters=[joint_state_params]

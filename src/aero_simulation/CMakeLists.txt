@@ -19,8 +19,8 @@ install(
     scripts/joystick_control_node.py
     scripts/rover_control_node.py
     scripts/camera_node.py
-    scripts/robot_state_publisher_node.py
-    scripts/joint_state_publisher_node.py
+    scripts/robot_state_publisher.py
+    scripts/joint_state_publisher.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
